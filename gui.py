@@ -29,8 +29,7 @@ def exit_gui():
 # Create the main window
 root = tk.Tk()
 root.title("LED Controller")
-root.geometry('400×400')
-
+root.geometry("500x400")
 
 # Create radio buttons for each LED color
 tk.Radiobutton(root, text="Red LED", value="red", command=lambda: turn_on_led("red")).pack()
